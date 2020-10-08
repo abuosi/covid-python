@@ -8,7 +8,7 @@ covid = pd.read_csv("https://raw.githubusercontent.com/microsoft/Bing-COVID-19-D
 br_states = "Brasil.json"
 
 # dataset of Brazil population
-population = pd.read_csv("C:\\Users\\abuos\\Code\\abuosi\\covid-python\\populacao2020.csv", low_memory=False, sep=";")
+population = pd.read_csv("populacao2020.csv", low_memory=False, sep=";")
 
 # Calculate Yesterday Date
 yesterday = datetime.date.today() - datetime.timedelta(days=1)
